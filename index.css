@@ -70,6 +70,10 @@ hr {
 p {
 	margin-bottom: 3em;
 }
+
+nav {
+	margin-top: 5%;
+}
 a:visited, a:focus {
 	background-color: none;
 }
