@@ -56,7 +56,8 @@ h5 {
 }
 
 h6 { 
-	padding-top: .6em;
+
+	/*padding-top: .6em;*/
   font-family: 'Raleway', sans-serif;
   color: #2A0244;
   letter-spacing: .2em;
@@ -84,10 +85,15 @@ a:visited, a:focus {
 }
 .top {
 	width: 100%;
-	float:right;
+	float:left;
 	text-align: center;
 }
 .flex-column {
 	display: none;
+}
+.main {
+	width: 100%;
+	float:left;
+	padding-left: 5%;
 }
 }
