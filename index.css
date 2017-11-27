@@ -50,10 +50,12 @@ h4{
 	  font-weight: 500;
 }
 h5 {
-  	font-family: 'Inconsolata', sans-serif;
+  	font-family: 'Raleway', sans-serif;
   	color: #2E2E2E ;
-  	font-style: italic;
-}
+
+  	font-weight: 400;
+/*  	font-style: italic;
+*/}
 
 h6 { 
 
@@ -97,3 +99,4 @@ a:visited, a:focus {
 	padding-left: 5%;
 }
 }
+
