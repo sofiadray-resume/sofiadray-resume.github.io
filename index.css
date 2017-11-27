@@ -9,7 +9,6 @@ body {
 	padding-top: 2em;
 }
 
-
 .active, a:hover, a:focus {
 	background-color: #EEE6F3;
 	color: #2E2E2E;
@@ -18,7 +17,7 @@ body {
 
 .top {
 	top: 0;
-	padding: 0em 5em 0em 5em;
+	padding: 0em 5em 0em 3em;
 	float:left;
 }	
 
@@ -73,7 +72,6 @@ hr {
 p {
 	margin-bottom: 3em;
 }
-
 nav {
 	margin-top: 5%;
 }
@@ -82,21 +80,21 @@ a:visited, a:focus {
 }
 
 @media only screen and (max-width: 996px) {
-.top, .affix {
-	position: relative;
-}
-.top {
-	width: 100%;
-	float:left;
-	text-align: center;
-}
-.flex-column {
-	display: none;
-}
-.main {
-	width: 100%;
-	float:left;
-	padding-left: 5%;
-}
+	.top, .affix {
+		position: relative;
+	}
+	.top {
+		width: 100%;
+		float:left;
+		text-align: center;
+	}
+	.flex-column {
+		display: none;
+	}
+	.main {
+		width: 100%;
+		float:left;
+		padding-left: 5%;
+	}
 }
 
